@@ -1,3 +1,8 @@
+//Program made by Jermaine Lara
+//10/5/17
+//Program emulates a 2 player tic tac toe game, tallying both X and O's loses and creating multiple games.
+//All methods in this program are based on my Java version of this program and have been adapted to C++
+
 #include <iostream>
 #include <cstring>
 
@@ -164,4 +169,4 @@ void clearBoard(int board[3][3]) {
 			board[row][column] = 0;
 		}
 	}
-}Cpp-TicTacToe
+}
